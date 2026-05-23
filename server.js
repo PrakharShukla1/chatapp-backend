@@ -43,7 +43,7 @@ app.set("io", io);
 connectDB();
 
 // ─── Express Middleware ──────────────────────────────────────
-const cors = require("cors");
+
 
 app.use(
   cors({
